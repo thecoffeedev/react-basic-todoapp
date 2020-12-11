@@ -1,0 +1,30 @@
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+body {
+    background-color: #583094;
+}
+
+.ed-buttons{
+  border: 0;
+  background: none;
+  float: right;
+  font-size: 1.5rem;
+  transform: rotate(90deg);
+  display: none;
+}
+
+.dame:hover .ed-buttons {
+  display: inline-block;
+}
+
+label.disabled {
+  color: #aaa; 
+}
+
+.ft-elem {
+  display: inline-block;
+}
