@@ -139,16 +139,16 @@ const App = () => {
             : null
           }
         </div>
-          <div className="col-12 bg-light border rounded mt-1">
-            <div className="ft-elem col-3">
+          <div className="col-12 bg-light border rounded mt-1 text-center">
+            <div className="ft-elem col-sm-3">
               {leftTodos} todos left
             </div>
-            <div className="ft-elem col-6">
+            <div className="ft-elem col-sm-6">
               <a href="#" className="badge badge-light border m-1 p-1"onClick={layoutAll}>All</a>
               <a href="#" className="badge badge-light border m-1 p-1"onClick={layoutActive}>Active</a>
               <a href="#" className="badge badge-light border m-1 p-1"onClick={layoutCompleted}>Completed</a>
             </div>
-            <div className="ft-elem col-3">
+            <div className="ft-elem col-sm-3">
               <a href="#" className="badge badge-light border m-1 p-1"onClick={clearCompleted}>Clear completed</a>
             </div>
           </div>
